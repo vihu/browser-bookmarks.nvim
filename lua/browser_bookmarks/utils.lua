@@ -62,6 +62,11 @@ local default_config_dir = {
       "Application Support",
       "Waterfox",
     },
+    [Browser.GOGO] = {
+      "Library",
+      "Application Support",
+      "gogo",
+    },
   },
   Linux = {
     [Browser.BRAVE] = {
@@ -104,6 +109,10 @@ local default_config_dir = {
     },
     [Browser.WATERFOX] = {
       ".waterfox",
+    },
+    [Browser.GOGO] = {
+      ".config",
+      "gogo",
     },
   },
   Windows_NT = {
@@ -376,6 +385,7 @@ local title = {
   [Browser.SAFARI] = "Safari",
   [Browser.VIVALDI] = "Vivaldi",
   [Browser.WATERFOX] = "Waterfox",
+  [Browser.GOGO] = "gogo",
 }
 
 -- Construct and return the prompt for the given browser. If no browser name

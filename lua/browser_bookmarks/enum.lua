@@ -15,6 +15,7 @@ M.Browser = {
   SAFARI = "safari",
   VIVALDI = "vivaldi",
   WATERFOX = "waterfox",
+  GOGO = "gogo",
 }
 
 return M

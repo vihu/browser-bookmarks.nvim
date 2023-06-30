@@ -87,7 +87,7 @@ to inspect the changes before updating.
     -- selected_browser = 'chrome'
   },
   -- dependencies = {
-  --   -- Only if your selected browser is Firefox, Waterfox or buku
+  --   -- Only if your selected browser is Firefox, Waterfox, buku or gogo
   --   'kkharji/sqlite.lua',
   --
   --   -- Only if you're using the Telescope extension

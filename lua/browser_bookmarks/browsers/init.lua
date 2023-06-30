@@ -29,6 +29,7 @@ local sqlite_dependency_browsers = {
   Browser.BUKU,
   Browser.FIREFOX,
   Browser.WATERFOX,
+  Browser.GOGO,
 }
 
 -- Check if the `sqlite.lua` dependency is installed, raise an error if not.
